@@ -259,6 +259,7 @@ section {
 
 .archive-band,
 .listen-section,
+.video-section,
 .tracks-section,
 .papers-section,
 .object-section,
@@ -419,6 +420,41 @@ section {
 
 .listening-action {
   color: rgba(208, 179, 145, 0.68);
+}
+
+.video-section {
+  border-bottom: 1px solid rgba(208, 179, 145, 0.12);
+  background:
+    radial-gradient(circle at 72% 48%, rgba(208, 38, 34, 0.09), transparent 24rem),
+    rgba(4, 8, 9, 0.56);
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: minmax(16rem, 0.58fr) minmax(0, 1.2fr);
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+}
+
+.video-copy h2 {
+  max-width: 9ch;
+}
+
+.video-frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border: 1px solid rgba(208, 179, 145, 0.3);
+  background: #000;
+  box-shadow: 0 28px 80px var(--shadow);
+}
+
+.video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .track-grid {
@@ -700,6 +736,7 @@ section {
   .signal-section,
   .track-intro,
   .listen-intro,
+  .video-grid,
   .papers-intro {
     grid-template-columns: 1fr;
   }

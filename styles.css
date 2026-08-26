@@ -728,6 +728,14 @@ section {
     rgba(8, 16, 17, 0.65);
 }
 
+.edition-note {
+  margin-top: 1.25rem;
+  padding-left: 0.85rem;
+  border-left: 2px solid var(--cyan);
+  color: rgba(138, 216, 210, 0.86);
+  font-size: 0.88rem;
+}
+
 .spec-list {
   display: grid;
   gap: 1px;

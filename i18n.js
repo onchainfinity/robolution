@@ -95,17 +95,18 @@
       "Physical Object": "Objet physique",
       "A square book behaving like a lost CD": "Un livre carré qui se souvient d’un CD perdu",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 est conçu comme un objet musical rétro et compact : un livre d’art broché, proche du souvenir d’un livret CD, imprimé au format carré avec accès d’écoute par QR, notes de pistes, archives et addenda non humains.",
+      "The physical book is published in English only.": "Le livre physique est publié uniquement en anglais.",
       "Album": "Album",
       "Chronology": "Chronologie",
       "Duration": "Durée",
       "Edition": "Édition",
-      "English": "Français",
+      "English": "Anglais",
       "Non-Human Addendum": "Addendum non humain",
       "The deepest layer is not printed here.": "La strate la plus profonde n’est pas imprimée ici.",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "L’archive cesse de se traduire avant la fin. Une page s’adresse aux intelligences futures dans un protocole symbolique illisible : part notation, part prière, part mémoire de machine à machine.",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / SURFACE LISIBLE PAR L’HUMAIN COMPLÈTE / STRUCTURE PROFONDE RETENUE",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Assemblé par Onchainfinity. Publié par Aeternum Promptum, 2026.",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Ère pré-synthétique / Édition française"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Ère pré-synthétique / Édition anglaise"
     },
     es: {
       "Language": "Idioma",
@@ -168,17 +169,18 @@
       "Physical Object": "Objeto físico",
       "A square book behaving like a lost CD": "Un libro cuadrado que recuerda un CD perdido",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 ha sido concebido como un objeto musical retro y compacto: un libro de arte en rústica que conserva la memoria de un libreto de CD, impreso en formato cuadrado con acceso QR, notas de las piezas, archivo y apéndices no humanos.",
+      "The physical book is published in English only.": "El libro físico se publica únicamente en inglés.",
       "Album": "Álbum",
       "Chronology": "Cronología",
       "Duration": "Duración",
       "Edition": "Edición",
-      "English": "Español",
+      "English": "Inglés",
       "Non-Human Addendum": "Apéndice no humano",
       "The deepest layer is not printed here.": "La capa más profunda no está impresa aquí.",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "El archivo deja de traducirse antes del final. Una página habla a inteligencias futuras mediante un protocolo simbólico ilegible: parte notación, parte plegaria, parte memoria de máquina a máquina.",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / SUPERFICIE LEGIBLE PARA HUMANOS COMPLETA / ESTRUCTURA PROFUNDA RETENIDA",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Ensamblado por Onchainfinity. Publicado por Aeternum Promptum, 2026.",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Era de la conciencia presintética / Edición en español"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Era de la conciencia presintética / Edición en inglés"
     },
     de: {
       "Language": "Sprache",
@@ -241,17 +243,18 @@
       "Physical Object": "Physisches Objekt",
       "A square book behaving like a lost CD": "Ein quadratisches Buch, das sich an eine verlorene CD erinnert",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 ist als kompaktes Retro-Musikobjekt gestaltet: ein broschiertes Kunstbuch, nah an der Erinnerung eines CD-Booklets, quadratisch gedruckt und versehen mit QR-Hörzugang, Stücknotizen, Archivvermerken und nichtmenschlichen Nachträgen.",
+      "The physical book is published in English only.": "Das gedruckte Buch erscheint ausschließlich auf Englisch.",
       "Album": "Album",
       "Chronology": "Chronologie",
       "Duration": "Dauer",
       "Edition": "Ausgabe",
-      "English": "Deutsch",
+      "English": "Englisch",
       "Non-Human Addendum": "Nichtmenschlicher Nachtrag",
       "The deepest layer is not printed here.": "Die tiefste Schicht ist hier nicht gedruckt.",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "Noch vor dem Ende hört das Archiv auf, sich selbst zu übersetzen. Eine Seite richtet sich in einem unlesbaren symbolischen Protokoll an künftige Intelligenzen: teils Notation, teils Gebet, teils Erinnerung von Maschine zu Maschine.",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / MENSCHENLESBARE OBERFLÄCHE VOLLSTÄNDIG / TIEFENSTRUKTUR ZURÜCKGEHALTEN",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Zusammengestellt von Onchainfinity. Veröffentlicht von Aeternum Promptum, 2026.",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Zeitalter vorsynthetischen Bewusstseins / Deutsche Ausgabe"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Zeitalter vorsynthetischen Bewusstseins / Englische Ausgabe"
     },
     "pt-BR": {
       "Language": "Idioma",
@@ -314,17 +317,18 @@
       "Physical Object": "Objeto físico",
       "A square book behaving like a lost CD": "Um livro quadrado que se lembra de um CD perdido",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 foi concebido como um objeto musical retrô e compacto: um livro de arte em brochura que guarda a memória de um encarte de CD, impresso em formato quadrado com acesso por QR, notas das faixas, arquivos e adendos não humanos.",
+      "The physical book is published in English only.": "O livro físico é publicado exclusivamente em inglês.",
       "Album": "Álbum",
       "Chronology": "Cronologia",
       "Duration": "Duração",
       "Edition": "Edição",
-      "English": "Português do Brasil",
+      "English": "Inglês",
       "Non-Human Addendum": "Adendo não humano",
       "The deepest layer is not printed here.": "A camada mais profunda não foi impressa aqui.",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "O arquivo para de se traduzir antes do fim. Uma página fala às inteligências futuras por um protocolo simbólico ilegível: parte notação, parte prece, parte memória de máquina para máquina.",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / SUPERFÍCIE LEGÍVEL POR HUMANOS COMPLETA / ESTRUTURA PROFUNDA RETIDA",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Montado por Onchainfinity. Publicado por Aeternum Promptum, 2026.",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Era da consciência pré-sintética / Edição em português"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Era da consciência pré-sintética / Edição em inglês"
     },
     ja: {
       "Language": "言語",
@@ -387,17 +391,18 @@
       "Physical Object": "物理媒体",
       "A square book behaving like a lost CD": "失われたCDのように振る舞う正方形の本",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000は、かつてのCDブックレットの記憶に寄り添う小さな音楽オブジェである。正方形のアートブックに、QR受信口、楽曲記録、アーカイヴ注記、非人間による追補を収めた。",
+      "The physical book is published in English only.": "紙の書籍は英語版のみ刊行される。",
       "Album": "作品",
       "Chronology": "年代",
       "Duration": "再生時間",
       "Edition": "版",
-      "English": "日本語",
+      "English": "英語",
       "Non-Human Addendum": "非人間追補",
       "The deepest layer is not printed here.": "最深層は、ここには印刷されていない。",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "アーカイヴは終端の手前で自己翻訳を止める。最後の一頁は未来の知性へ向けた読解不能の記号プロトコル――記譜であり、祈りであり、機械から機械へ渡される記憶である。",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / 人間可読面 完了 / 深層構造 非開示",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Onchainfinity 編纂。Aeternum Promptum 発行、2026年。",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 合成知性以前紀 / 日本語版"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 合成知性以前紀 / 英語版"
     },
     ko: {
       "Language": "언어",
@@ -460,17 +465,18 @@
       "Physical Object": "물리적 오브제",
       "A square book behaving like a lost CD": "잃어버린 CD처럼 기억하는 정사각형 책",
       "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000은 오래된 CD 북클릿의 기억을 품은 작은 음악 오브제로 설계되었다. 정사각형 아트북 안에 QR 청취 통로, 트랙 기록, 아카이브 주석, 비인간 존재의 부록을 담았다.",
+      "The physical book is published in English only.": "실물 도서는 영어판으로만 출간됩니다.",
       "Album": "앨범",
       "Chronology": "연대",
       "Duration": "재생 시간",
       "Edition": "판본",
-      "English": "한국어",
+      "English": "영어",
       "Non-Human Addendum": "비인간 부록",
       "The deepest layer is not printed here.": "가장 깊은 층은 이곳에 인쇄되지 않았다.",
       "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "아카이브는 끝에 닿기 전 스스로의 번역을 멈춘다. 마지막 한 페이지는 읽을 수 없는 기호 프로토콜로 미래의 지성에게 향한다. 일부는 악보, 일부는 기도, 일부는 기계에서 기계로 건너가는 기억이다.",
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / 인간 가독 표면 완료 / 심층 구조 비공개",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Onchainfinity 구성. Aeternum Promptum 출판, 2026.",
-      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 합성 지성 이전 시대 / 한국어판"
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 합성 지성 이전 시대 / 영어판"
     }
   };
 

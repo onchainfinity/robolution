@@ -14,8 +14,8 @@ The site uses local assets copied from `Images/Curated/` and does not require ex
 
 This folder is the source of the standalone `robolution` project site.
 
-- Repository: `arnaud71/robolution`
-- GitHub Pages URL: `https://arnaud71.github.io/robolution/`
+- Repository: `onchainfinity/robolution`
+- GitHub Pages URL: `https://onchainfinity.github.io/robolution/`
 - Final URL after the main Onchainfinity site moves to GitHub Pages: `https://onchainfinity.art/robolution/`
 
 The project repository must not contain a `CNAME` file. The custom domain belongs to the

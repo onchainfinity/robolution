@@ -335,7 +335,7 @@ section {
   position: absolute;
   inset: 0;
   clip-path: circle(45.2% at 50% 50%);
-  animation: disc-spin 12s linear infinite;
+  animation: disc-spin 6s linear infinite;
   will-change: transform;
 }
 

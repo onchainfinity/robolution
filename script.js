@@ -32,6 +32,13 @@ const trackButtons = [...document.querySelectorAll(".track-play")];
 let activeButton = null;
 
 function showPlayingState(button, isPlaying) {
+  const language = window.ROBO_I18N?.language || "en";
+  const localeTerms = window.ROBO_I18N?.terms?.[language] || {
+    play: "Play",
+    pause: "Pause",
+    track: "track"
+  };
+
   for (const item of trackButtons) {
     const card = item.closest(".track-card");
     const symbol = item.querySelector(".play-symbol");
@@ -41,7 +48,7 @@ function showPlayingState(button, isPlaying) {
     symbol.textContent = isActive ? "❚❚" : "▶";
     item.setAttribute(
       "aria-label",
-      `${isActive ? "Pause" : "Play"} track: ${item.dataset.title}`
+      `${isActive ? localeTerms.pause : localeTerms.play} ${localeTerms.track}: ${item.dataset.title}`
     );
   }
 }
@@ -72,3 +79,6 @@ for (const button of trackButtons) {
 audioPlayer.addEventListener("play", () => showPlayingState(activeButton, true));
 audioPlayer.addEventListener("pause", () => showPlayingState(activeButton, false));
 audioPlayer.addEventListener("ended", () => showPlayingState(activeButton, false));
+window.addEventListener("robolution:languagechange", () => {
+  showPlayingState(activeButton, Boolean(activeButton && !audioPlayer.paused));
+});

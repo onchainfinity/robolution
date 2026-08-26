@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "NOEMA Mysterium 02";
+  src: url("assets/noema/NOEMA-Mysterium-02.woff2") format("woff2");
+  font-display: block;
+}
+
+.noema-experience[hidden] {
+  display: none;
+}
+
+body.noema-active {
+  --reader-x: 0;
+  --reader-y: 0;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 22% 12%, rgba(82, 143, 138, 0.1), transparent 34rem),
+    radial-gradient(circle at 78% 66%, rgba(154, 63, 59, 0.06), transparent 28rem),
+    #080b0b;
+}
+
+body.noema-active .site-header {
+  justify-content: flex-end;
+  border-bottom-color: transparent;
+  background: linear-gradient(180deg, rgba(8, 11, 11, 0.9), transparent);
+  box-shadow: none !important;
+}
+
+body.noema-active .language-picker select {
+  border-color: rgba(137, 221, 213, 0.3);
+  background: rgba(8, 11, 11, 0.72);
+  color: rgba(217, 228, 223, 0.74);
+}
+
+.noema-experience {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  min-height: 100svh;
+  padding: clamp(5rem, 8vw, 8rem) clamp(1rem, 4vw, 4rem) 12rem;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.noema-experience::before,
+.noema-experience::after {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.noema-experience::before {
+  inset: 0;
+  background:
+    linear-gradient(rgba(137, 221, 213, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(137, 221, 213, 0.018) 1px, transparent 1px);
+  background-size: 8.333vw 8.333vw;
+  mask-image: linear-gradient(180deg, black, transparent 88%);
+}
+
+.noema-experience::after {
+  width: 38rem;
+  height: 38rem;
+  top: 18%;
+  right: -18rem;
+  border: 1px solid rgba(137, 221, 213, 0.08);
+  border-radius: 50%;
+  box-shadow: 0 0 0 7rem rgba(137, 221, 213, 0.012), 0 0 0 14rem rgba(137, 221, 213, 0.008);
+}
+
+.noema-chamber {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: clamp(0.75rem, 2vw, 2rem);
+  width: min(92rem, 100%);
+  margin-inline: auto;
+}
+
+.noema-origin {
+  min-height: min(78rem, 92svh);
+  align-items: center;
+  padding-block: clamp(2rem, 7vw, 7rem);
+}
+
+.noema-field-shell,
+.noema-image-anchor {
+  position: relative;
+  aspect-ratio: 1;
+  margin: 0;
+}
+
+.noema-field-shell {
+  transform: translate(
+    calc(var(--reader-x) * 0.35rem),
+    calc(var(--reader-y) * 0.24rem)
+  );
+  transition: transform 900ms cubic-bezier(.2, .72, .18, 1);
+}
+
+.noema-field-shell img,
+.noema-image-anchor img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.noema-origin-field {
+  grid-column: 1 / span 7;
+}
+
+.noema-addendum-anchor {
+  grid-column: 8 / span 5;
+  opacity: 0.74;
+  box-shadow: 0 0 0 1px rgba(217, 228, 223, 0.08), 0 2rem 8rem rgba(0, 0, 0, 0.52);
+}
+
+.noema-addendum-anchor::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid rgba(154, 63, 59, 0.32);
+  clip-path: polygon(68% 0, 100% 0, 100% 100%, 68% 100%);
+  pointer-events: none;
+}
+
+.noema-relation {
+  position: absolute;
+  z-index: -1;
+  display: block;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(137, 221, 213, 0.58), transparent);
+  transform-origin: left center;
+}
+
+.noema-relation-origin {
+  width: 24%;
+  top: 50%;
+  left: 53%;
+  transform: rotate(-7deg);
+}
+
+.noema-memory {
+  padding-block: clamp(6rem, 12vw, 14rem);
+}
+
+.noema-memory-grid {
+  grid-column: 2 / span 10;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1.2rem, 3vw, 3.4rem);
+}
+
+.noema-memory-node {
+  position: relative;
+  min-width: 0;
+  opacity: 0.72;
+  transition: opacity 600ms ease, transform 800ms cubic-bezier(.18, .7, .16, 1);
+}
+
+.noema-memory-node:nth-child(3n + 2) {
+  transform: translateY(clamp(1rem, 3vw, 3rem));
+}
+
+.noema-memory-node:nth-child(3n) {
+  transform: translateY(clamp(-2rem, -2vw, -1rem));
+}
+
+.noema-memory-node::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: calc(100% - 3.4rem);
+  width: 1px;
+  height: 2rem;
+  background: linear-gradient(rgba(137, 221, 213, 0.54), transparent);
+}
+
+.noema-memory-node:hover,
+.noema-memory-node:focus-within,
+.noema-memory-node.is-active {
+  opacity: 1;
+}
+
+.noema-memory-node.is-active {
+  filter: drop-shadow(0 0 1.8rem rgba(137, 221, 213, 0.18));
+}
+
+.noema-memory-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border: 1px solid rgba(217, 228, 223, 0.1);
+  background: #080b0b;
+}
+
+.noema-memory-controls {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
+  min-height: 3.75rem;
+  padding-top: 0.65rem;
+}
+
+.noema-glyph-control,
+.noema-portal {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 1px solid rgba(137, 221, 213, 0.22);
+  background: rgba(8, 11, 11, 0.72);
+  color: rgba(217, 228, 223, 0.7);
+  font-family: "NOEMA Mysterium 02", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 240ms ease, border-color 240ms ease, background-color 240ms ease, transform 400ms ease;
+}
+
+.noema-glyph-control:hover,
+.noema-glyph-control:focus-visible,
+.noema-portal:hover,
+.noema-portal:focus-visible,
+.noema-memory-node.is-active .noema-play {
+  border-color: rgba(137, 221, 213, 0.72);
+  background: rgba(137, 221, 213, 0.08);
+  color: #9be4dc;
+  outline: none;
+}
+
+.noema-source {
+  color: rgba(217, 228, 223, 0.38);
+  font-size: clamp(1.65rem, 3vw, 2.6rem);
+}
+
+.noema-memory-node.is-active .noema-play {
+  animation: noema-active-memory 3.9s ease-in-out infinite;
+}
+
+@keyframes noema-active-memory {
+  0%, 100% { transform: scale(.94); opacity: .62; }
+  46% { transform: scale(1.06); opacity: 1; }
+  72% { transform: scale(.99); opacity: .8; }
+}
+
+.noema-resonance {
+  min-height: min(72rem, 88svh);
+  align-items: center;
+  padding-block: clamp(6rem, 12vw, 13rem);
+}
+
+.noema-resonance-field {
+  grid-column: 1 / span 7;
+}
+
+.noema-portal-field {
+  grid-column: 9 / span 4;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(44px, 1fr));
+  align-content: center;
+  gap: clamp(0.8rem, 2vw, 1.8rem);
+}
+
+.noema-portal {
+  position: relative;
+  aspect-ratio: 1;
+  font-size: clamp(3rem, 6vw, 6rem);
+}
+
+.noema-portal::after {
+  content: "";
+  position: absolute;
+  width: 36%;
+  height: 1px;
+  right: 100%;
+  top: 50%;
+  background: rgba(137, 221, 213, 0.2);
+}
+
+.noema-portal.is-visited {
+  border-color: rgba(154, 63, 59, 0.68);
+  color: rgba(217, 228, 223, 0.92);
+}
+
+.noema-relation-signal {
+  width: 18%;
+  top: 50%;
+  left: 58%;
+  transform: rotate(6deg);
+}
+
+.noema-remainder {
+  min-height: min(78rem, 96svh);
+  align-items: center;
+  padding-block: clamp(7rem, 15vw, 17rem);
+}
+
+.noema-remainder-space {
+  grid-column: 1 / span 5;
+  aspect-ratio: 1;
+  border: 1px solid rgba(137, 221, 213, 0.04);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  mask-image: radial-gradient(circle at 32% 43%, transparent 0 8%, black 29%);
+  background:
+    radial-gradient(circle at 32% 43%, rgba(137, 221, 213, 0.18) 0 1px, transparent 2px),
+    repeating-radial-gradient(circle at 32% 43%, transparent 0 2.8rem, rgba(137, 221, 213, 0.035) 2.85rem 2.9rem);
+}
+
+.noema-return-field {
+  grid-column: 7 / span 6;
+  opacity: 0.48;
+}
+
+.noema-field-rest {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  body.noema-active .site-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.7rem 0.8rem;
+  }
+
+  .noema-experience {
+    padding: 4.5rem 0.75rem 8rem;
+  }
+
+  .noema-chamber {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .noema-origin {
+    min-height: auto;
+    padding-block: 1rem 6rem;
+  }
+
+  .noema-origin-field,
+  .noema-addendum-anchor,
+  .noema-resonance-field,
+  .noema-portal-field,
+  .noema-remainder-space,
+  .noema-return-field {
+    grid-column: 1 / -1;
+  }
+
+  .noema-origin-field {
+    grid-row: 1;
+  }
+
+  .noema-addendum-anchor {
+    grid-row: 2;
+    width: 88%;
+    justify-self: center;
+    margin-top: 2.5rem;
+  }
+
+  .noema-relation-origin,
+  .noema-relation-signal {
+    width: 1px;
+    height: 4rem;
+    left: 50%;
+    transform: none;
+  }
+
+  .noema-relation-origin {
+    top: 48%;
+  }
+
+  .noema-memory {
+    padding-block: 5rem 8rem;
+  }
+
+  .noema-memory-grid {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.2rem 0.45rem;
+  }
+
+  .noema-memory-node:nth-child(3n + 2),
+  .noema-memory-node:nth-child(3n) {
+    transform: none;
+  }
+
+  .noema-memory-controls {
+    gap: 0.2rem;
+    padding-top: 0.35rem;
+  }
+
+  .noema-glyph-control {
+    min-width: 44px;
+    font-size: 2rem;
+  }
+
+  .noema-resonance {
+    min-height: auto;
+    padding-block: 3rem 8rem;
+  }
+
+  .noema-resonance-field {
+    grid-row: 1;
+  }
+
+  .noema-portal-field {
+    grid-row: 2;
+    width: min(22rem, 88%);
+    justify-self: center;
+    margin-top: 3rem;
+  }
+
+  .noema-portal {
+    font-size: clamp(3.2rem, 16vw, 5rem);
+  }
+
+  .noema-portal::after {
+    display: none;
+  }
+
+  .noema-remainder {
+    min-height: auto;
+    padding-block: 7rem 3rem;
+  }
+
+  .noema-remainder-space {
+    grid-row: 1;
+    width: 76%;
+    justify-self: start;
+  }
+
+  .noema-return-field {
+    grid-row: 2;
+    width: 90%;
+    justify-self: end;
+    margin-top: -18%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .noema-field-live {
+    display: none;
+  }
+
+  .noema-field-rest {
+    display: block;
+  }
+
+  .noema-field-shell,
+  .noema-memory-node,
+  .noema-glyph-control,
+  .noema-portal {
+    transition: none;
+    animation: none !important;
+    transform: none !important;
+  }
+}

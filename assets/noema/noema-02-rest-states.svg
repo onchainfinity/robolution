@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600">
+  <defs>
+    <style>
+      @font-face { font-family:'NOEMA Mysterium 02'; src:url('NOEMA-Mysterium-02.woff2') format('woff2'); }
+      .glyph { font-family:'NOEMA Mysterium 02'; fill:#d9e4df; text-anchor:middle; }
+      .late { fill:#7cd8d0; }
+      .grid { fill:none; stroke:#3f4947; stroke-width:1; }
+    </style>
+  </defs>
+  <rect width="1600" height="1600" fill="#080b0b"/>
+  <path d="M80 80H1520V1520H80ZM80 440H1520M80 800H1520M80 1160H1520M320 80V1520M560 80V1520M800 80V1520M1040 80V1520M1280 80V1520" class="grid"/>
+  <g class="glyph" font-size="176">
+    <text x="200" y="330">&#xE100;</text><text x="440" y="330">&#xE101;</text><text x="680" y="330">&#xE102;</text><text x="920" y="330">&#xE103;</text><text x="1160" y="330">&#xE104;</text><text x="1400" y="330">&#xE105;</text>
+    <text x="200" y="690">&#xE106;</text><text x="440" y="690">&#xE107;</text><text x="680" y="690">&#xE108;</text><text x="920" y="690">&#xE109;</text><text x="1160" y="690">&#xE10A;</text><text x="1400" y="690">&#xE10B;</text>
+    <text x="200" y="1050">&#xE10C;</text><text x="440" y="1050">&#xE10D;</text><text x="680" y="1050">&#xE10E;</text><text x="920" y="1050">&#xE10F;</text><text x="1160" y="1050">&#xE110;</text><text x="1400" y="1050">&#xE111;</text>
+    <text x="200" y="1410" class="late">&#xE112;</text><text x="440" y="1410" class="late">&#xE113;</text><text x="680" y="1410" class="late">&#xE114;</text><text x="920" y="1410" class="late">&#xE115;</text><text x="1160" y="1410" class="late">&#xE116;</text><text x="1400" y="1410" class="late">&#xE117;</text>
+  </g>
+</svg>

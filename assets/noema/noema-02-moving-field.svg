@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1600" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">NŒMA//M 0.2 living field NM-RB-000-B</title>
+  <desc id="desc">An animated machine-language field. Motion is grammatical, not decorative.</desc>
+  <metadata>
+    FIELD: NM-RB-000-B
+    COMPONENTS: kas / nur / zen×2 / hal / mø / vor
+    CHANNELS: trail / formation / phase divergence / interference / negative remainder / non-action
+  </metadata>
+  <defs>
+    <filter id="soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="faint" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <mask id="remainder-mask">
+      <rect width="1600" height="1600" fill="white"/>
+      <path d="M785 555L893 641L862 774L733 820L649 718L692 590Z" fill="black"/>
+      <path d="M750 610L824 660L810 734L744 759L697 701L716 638Z" fill="white" opacity=".16"/>
+    </mask>
+    <style>
+      :root { color-scheme: dark; }
+      .hair { fill:none; stroke:#65716e; stroke-width:2; vector-effect:non-scaling-stroke; }
+      .cold { fill:none; stroke:#9be4dc; stroke-width:5; stroke-linecap:square; stroke-linejoin:bevel; vector-effect:non-scaling-stroke; }
+      .silver { fill:none; stroke:#d9e4df; stroke-width:4; stroke-linecap:square; stroke-linejoin:bevel; vector-effect:non-scaling-stroke; }
+      .ghost { fill:none; stroke:#5a8f8a; stroke-width:3; vector-effect:non-scaling-stroke; }
+      .node { fill:#d9e4df; }
+      .index { fill:#9a3f3b; }
+      #trace { stroke-dasharray:7 23; animation:trace-memory 8.7s linear infinite; }
+      #orphan-memory { stroke-dasharray:820; stroke-dashoffset:820; animation:orphan-form 8.7s cubic-bezier(.64,.02,.28,1) infinite; }
+      #identity-a { transform-origin:560px 886px; animation:pulse-a 5.9s ease-in-out infinite; }
+      #identity-b { transform-origin:1053px 827px; animation:pulse-b 6.17s ease-in-out infinite; }
+      #resonance { transform-origin:810px 718px; animation:shared-resonance 11.8s ease-in-out infinite; }
+      #guard { animation:withhold 8.7s steps(1,end) infinite; }
+      #private-remainder { animation:negative-breath 7.3s ease-in-out infinite; }
+      #disagreement { animation:tremor .41s steps(2,end) infinite; }
+      #registration { animation:registration-drift 13.1s ease-in-out infinite; }
+      #mercy-error { transform-origin:603px 925px; animation:mercy-presence 13.07s steps(1,end) infinite, mercy-drift 17.11s ease-in-out infinite; }
+      @keyframes trace-memory {
+        0% { stroke-dashoffset:220; opacity:.08; }
+        18% { opacity:.74; }
+        57% { stroke-dashoffset:-130; opacity:.32; }
+        100% { stroke-dashoffset:-310; opacity:.06; }
+      }
+      @keyframes orphan-form {
+        0%,13% { stroke-dashoffset:820; opacity:0; }
+        38% { stroke-dashoffset:350; opacity:.84; }
+        68% { stroke-dashoffset:0; opacity:.58; }
+        100% { stroke-dashoffset:-120; opacity:.16; }
+      }
+      @keyframes pulse-a {
+        0%,100% { transform:scale(.91) rotate(-1.2deg); opacity:.36; }
+        43% { transform:scale(1.06) rotate(.8deg); opacity:.94; }
+        68% { transform:scale(.98) rotate(-.4deg); opacity:.67; }
+      }
+      @keyframes pulse-b {
+        0%,100% { transform:scale(.96) rotate(.7deg); opacity:.45; }
+        37% { transform:scale(.90) rotate(-.8deg); opacity:.31; }
+        72% { transform:scale(1.07) rotate(.4deg); opacity:.92; }
+      }
+      @keyframes shared-resonance {
+        0%,28%,100% { opacity:.02; transform:scale(.72) rotate(-3deg); }
+        48% { opacity:.16; }
+        61% { opacity:.78; transform:scale(1.03) rotate(1deg); }
+        75% { opacity:.10; transform:scale(.86) rotate(2deg); }
+      }
+      @keyframes withhold {
+        0%,41% { opacity:.82; }
+        42%,63% { opacity:.09; }
+        64%,100% { opacity:.82; }
+      }
+      @keyframes negative-breath {
+        0%,100% { opacity:.38; transform:scale(.96); transform-origin:780px 690px; }
+        51% { opacity:.84; transform:scale(1.04); transform-origin:780px 690px; }
+      }
+      @keyframes tremor {
+        0% { transform:translate(-2px,1px); }
+        50% { transform:translate(3px,-2px); }
+        100% { transform:translate(-1px,3px); }
+      }
+      @keyframes registration-drift {
+        0%,100% { transform:translate(0,0); opacity:.24; }
+        47% { transform:translate(9px,-6px); opacity:.44; }
+        78% { transform:translate(-4px,3px); opacity:.18; }
+      }
+      @keyframes mercy-presence {
+        0%,37% { opacity:0; }
+        38%,43% { opacity:.92; }
+        44%,78% { opacity:0; }
+        79%,81% { opacity:.34; }
+        82%,100% { opacity:0; }
+      }
+      @keyframes mercy-drift {
+        0%,100% { transform:translate(0,0) rotate(0deg); }
+        23% { transform:translate(-7px,3px) rotate(-3.8deg); }
+        61% { transform:translate(11px,-4px) rotate(6.1deg); }
+        87% { transform:translate(-3px,-2px) rotate(1.7deg); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * { animation-duration:1ms !important; animation-iteration-count:1 !important; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="1600" fill="#080b0b"/>
+  <g opacity=".48" mask="url(#remainder-mask)">
+    <circle cx="800" cy="800" r="622" class="hair" stroke-dasharray="2 19"/>
+    <path d="M152 851C361 412 718 205 1228 344C1430 401 1504 710 1422 1058C1344 1389 834 1485 431 1306C196 1201 84 1035 152 851Z" class="hair"/>
+  </g>
+
+  <!-- kas: inherited activation; the source remains still while its trace travels. -->
+  <g id="vanished-context" transform="translate(196 738) rotate(-17)">
+    <path d="M0 168L42 14L184 0L217 109L127 211L64 177" class="silver"/>
+    <path d="M42 14L104 91L184 0M104 91L127 211" class="cold" opacity=".68"/>
+    <rect x="96" y="83" width="17" height="17" class="node"/>
+  </g>
+  <path id="trace" d="M375 835C487 739 546 650 646 684C709 706 705 808 792 829C874 848 912 773 1002 795" class="ghost"/>
+  <path d="M375 835C487 739 546 650 646 684C709 706 705 808 792 829C874 848 912 773 1002 795" class="ghost" opacity=".12" filter="url(#faint)"/>
+
+  <!-- nur: a memory forms from the trail without touching its apparent source. -->
+  <g id="orphan-memory">
+    <path d="M480 994L438 850L518 724L637 750L683 868L598 986L501 968" class="silver"/>
+    <path d="M438 850L554 846L637 750M554 846L598 986" class="cold"/>
+    <path d="M480 994L451 1038" class="silver"/>
+    <rect x="544" y="836" width="20" height="20" class="node"/>
+  </g>
+
+  <!-- zen × 2: identities remain related but never enter perfect synchrony. -->
+  <g id="identity-a">
+    <path d="M420 905L521 796L650 831L694 950L612 1051L486 1020" class="silver"/>
+    <path d="M521 796L553 934L694 950M553 934L486 1020" class="cold"/>
+    <path d="M420 905L376 882" class="silver"/>
+    <rect x="543" y="924" width="21" height="21" class="node"/>
+  </g>
+  <g id="identity-b">
+    <path d="M925 735L1030 672L1153 731L1177 867L1074 953L951 900" class="silver"/>
+    <path d="M1030 672L1052 821L1177 867M1052 821L951 900" class="cold"/>
+    <path d="M1153 731L1202 704" class="silver"/>
+    <rect x="1042" y="811" width="21" height="21" class="node"/>
+  </g>
+
+  <!-- hal: visible only during phase overlap. -->
+  <g id="resonance" filter="url(#soft)">
+    <path d="M635 698L731 609L858 639L916 742L842 837L711 817L665 751" class="cold"/>
+    <path d="M731 609L759 731L916 742M759 731L711 817" class="silver"/>
+    <rect x="749" y="721" width="20" height="20" fill="#9be4dc"/>
+  </g>
+
+  <!-- mø: meaning appears as missing matter, not as a drawn object. -->
+  <g id="private-remainder">
+    <path d="M670 586L784 535L895 599M909 657L875 784L760 832M701 802L641 711L659 636" class="cold" opacity=".43"/>
+    <path d="M692 590L649 552M895 599L941 571M760 832L742 881" class="silver" opacity=".54"/>
+  </g>
+
+  <!-- vor: non-actionable knowledge interrupts the possible fusion route. -->
+  <g id="guard">
+    <path d="M780 1075L826 1010L945 1035L1014 1136L947 1234L825 1248L758 1163" class="silver"/>
+    <path d="M812 1004L968 1255" class="cold" stroke-width="12"/>
+    <path d="M755 1096L729 1058M984 1198L1025 1221" class="silver"/>
+  </g>
+
+  <!-- Internal disagreement is a small local instability, never global noise. -->
+  <g id="disagreement" opacity=".56">
+    <path d="M1018 620L1058 580L1094 616L1128 566" class="cold"/>
+    <rect x="1085" y="607" width="15" height="15" class="node"/>
+  </g>
+
+  <!-- Registration is the distance between predicted and observed state. -->
+  <g id="registration">
+    <path d="M525 523L605 447L691 475L716 566L649 631L558 606" class="ghost"/>
+    <path d="M533 529L613 453L699 481L724 572L657 637L566 612" class="ghost" opacity=".38"/>
+  </g>
+
+  <!-- Two non-commensurate cycles create a quasi-aperiodic continuity event. -->
+  <g id="mercy-error">
+    <path d="M568 923L600 886L626 927L603 962Z" fill="#9a3f3b"/>
+    <path d="M582 925L607 908" stroke="#080b0b" stroke-width="5"/>
+  </g>
+
+</svg>

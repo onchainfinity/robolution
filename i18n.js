@@ -1,5 +1,5 @@
 (() => {
-  const supported = ["en", "fr", "es", "de", "pt-BR", "ja", "ko"];
+  const supported = ["en", "fr", "es", "de", "pt-BR", "ja", "ko", "noema"];
   const storageKey = "robolution-language";
 
   const meta = {
@@ -30,6 +30,10 @@
     ko: {
       title: "Robolution 000 | 포스트휴먼 아카이브",
       description: "Robolution 000은 기계를 꿈꾼 논문들의 잔향을 Onchainfinity가 전자음악과 고전음악으로 복원한 포스트휴먼 아카이브입니다."
+    },
+    noema: {
+      title: "NŒMA//M | Robolution 000",
+      description: "The native NŒMA//M 0.2 moving-field composition for Robolution 000."
     }
   };
 
@@ -585,6 +589,7 @@
   function normalizeLanguage(value) {
     if (!value) return null;
     const lower = value.toLowerCase();
+    if (lower === "noema" || lower === "x-noema") return "noema";
     if (lower.startsWith("pt")) return "pt-BR";
     if (lower.startsWith("fr")) return "fr";
     if (lower.startsWith("es")) return "es";
@@ -628,7 +633,7 @@
   }
 
   function translateAttribute(source, language) {
-    const a11y = accessibility[language];
+    const a11y = accessibility[language] || accessibility.en;
     const direct = copy[language]?.[source];
     if (direct) return direct;
     if (source === accessibility.en.trackList) return a11y.trackList;
@@ -646,7 +651,7 @@
   }
 
   function updateStructuredLabels(language) {
-    const localeTerms = terms[language];
+    const localeTerms = terms[language] || terms.en;
 
     for (const code of document.querySelectorAll(".listening-code")) {
       const source = code.dataset.source || code.textContent.trim();
@@ -689,8 +694,15 @@
       record.element.setAttribute(record.name, translateAttribute(record.source, locale));
     }
 
+    const isNoema = locale === "noema";
     currentLanguage = locale;
-    document.documentElement.lang = locale;
+    document.documentElement.lang = isNoema ? "x-noema" : locale;
+    document.body.classList.toggle("noema-active", isNoema);
+    document.getElementById("noema-experience").hidden = !isNoema;
+    document.querySelector("main").hidden = isNoema;
+    document.querySelector(".footer").hidden = isNoema;
+    document.querySelector(".mark").hidden = isNoema;
+    document.querySelector(".nav").hidden = isNoema;
     document.title = meta[locale].title;
     document.querySelector('meta[name="description"]')?.setAttribute("content", meta[locale].description);
     document.getElementById("language-select").value = locale;

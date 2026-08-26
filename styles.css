@@ -165,7 +165,7 @@ a {
 
 .kicker,
 .section-label,
-.track-card span,
+.track-card div > span,
 .spec-list span,
 .terminal-line,
 .footer {
@@ -518,7 +518,7 @@ section {
   background: linear-gradient(180deg, transparent, rgba(3, 7, 8, 0.92) 24%, rgba(3, 7, 8, 0.98));
 }
 
-.track-card span {
+.track-card div > span {
   display: block;
   margin-bottom: 0.65rem;
   color: var(--cyan);

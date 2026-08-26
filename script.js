@@ -26,9 +26,8 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const audioPlayer = document.querySelector("#audio-player");
-const audioDock = document.querySelector("#audio-dock");
-const audioTitle = document.querySelector("#audio-title");
+const audioPlayer = new Audio();
+audioPlayer.preload = "metadata";
 const trackButtons = [...document.querySelectorAll(".track-play")];
 let activeButton = null;
 
@@ -51,9 +50,6 @@ for (const button of trackButtons) {
   button.addEventListener("click", async () => {
     const source = new URL(button.dataset.audio, window.location.href).href;
     const sameTrack = audioPlayer.src === source;
-
-    audioDock.hidden = false;
-    audioTitle.textContent = button.dataset.title;
 
     if (sameTrack && !audioPlayer.paused) {
       audioPlayer.pause();

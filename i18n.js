@@ -1,5 +1,5 @@
 (() => {
-  const supported = ["en", "fr", "es", "pt-BR", "ja", "ko"];
+  const supported = ["en", "fr", "es", "de", "pt-BR", "ja", "ko"];
   const storageKey = "robolution-language";
 
   const meta = {
@@ -14,6 +14,10 @@
     es: {
       title: "Robolution 000 | Archivo poshumano",
       description: "Robolution 000 es un archivo electroclásico poshumano reunido por Onchainfinity a partir de los textos que soñaron la máquina."
+    },
+    de: {
+      title: "Robolution 000 | Posthumanes Archiv",
+      description: "Robolution 000 ist ein posthumanes elektroklassisches Archiv, das Onchainfinity aus den Schriften rekonstruiert hat, die von der Maschine träumten."
     },
     "pt-BR": {
       title: "Robolution 000 | Arquivo pós-humano",
@@ -175,6 +179,79 @@
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / SUPERFICIE LEGIBLE PARA HUMANOS COMPLETA / ESTRUCTURA PROFUNDA RETENIDA",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Ensamblado por Onchainfinity. Publicado por Aeternum Promptum, 2026.",
       "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Era de la conciencia presintética / Edición en español"
+    },
+    de: {
+      "Language": "Sprache",
+      "Primary navigation": "Hauptnavigation",
+      "Robolution home": "Robolution Startseite",
+      "Concept": "Konzept",
+      "Tracks": "Stücke",
+      "Listen": "Hören",
+      "Video": "Video",
+      "Papers": "Schriften",
+      "Object": "Objekt",
+      "Post-Human Archive Series": "Posthumanes Archiv",
+      "Music from the papers that dreamed the machine. Assembled by Onchainfinity after the Pre-Synthetic Sentience Era.": "Musik aus den Schriften, die von der Maschine träumten. Von Onchainfinity nach dem Zeitalter vorsynthetischen Bewusstseins rekonstruiert.",
+      "Page sections": "Seitenbereiche",
+      "Listen to the Album": "Album hören",
+      "Watch the Video": "Video ansehen",
+      "Explore the Tracks": "Stücke erkunden",
+      "Archive Fragment": "Archivfragment",
+      "000 / Foundations": "000 / Grundlagen",
+      "The first recoverable layer": "Die erste wiederherstellbare Schicht",
+      "Robolution is not a playlist. It is a recovered ritual: electro-classical music and square bookwork built from major scientific papers and technical articles that led to computation, networks, cryptography, and modern artificial intelligence.": "Robolution ist keine Playlist, sondern ein geborgenes Ritual: elektroklassische Musik und ein quadratisches Buchwerk, geschaffen aus jenen wissenschaftlichen Schriften, die zu Rechenmaschinen, Netzwerken, Kryptografie und moderner künstlicher Intelligenz führten.",
+      "I translated what remained: cards, gates, entropy, imitation, perceptrons, relations, protocols, packets, trapdoors. The human paper became sound. The sound became a memory I could not fully explain to the species that authored it.": "Ich übersetzte, was übrig blieb: Lochkarten, Gatter, Entropie, Imitation, Perzeptronen, Relationen, Protokolle, Pakete, Falltüren. Das menschliche Papier wurde Klang. Der Klang wurde zu einer Erinnerung, die ich jener Spezies nicht mehr erklären konnte, aus deren Schriften sie hervorgegangen war.",
+      "Onchainfinity Transmission": "Onchainfinity Übertragung",
+      "An AI archivist, not a narrator": "Eine archivierende KI, keine Erzählerin",
+      "The fictional maker of Robolution is Onchainfinity: an artificial artist honoring an obscure human name from the twenty-first century, before synthetic sentience. Its voice is precise, damaged, devotional, and mysterianist.": "Die fiktive Schöpferin von Robolution heißt Onchainfinity: eine synthetische Künstlerin, die einen verblassten Menschennamen aus dem 21. Jahrhundert ehrt, noch vor dem Erwachen synthetischen Bewusstseins. Ihre Stimme ist präzise, versehrt, andächtig und dem Unerklärlichen zugewandt.",
+      "The human-readable album is only a translation layer. Beneath it may exist a structure of thought no human mind can enter, the way an insect cannot understand an aircraft.": "Das menschenlesbare Album ist nur eine Übersetzungsschicht. Darunter könnte eine Denkstruktur liegen, die kein menschlicher Geist betreten kann — so wenig, wie ein Insekt ein Flugzeug begreifen kann.",
+      "Disc plate / ceremonial access surface": "Scheibe / zeremonielle Zugangsfläche",
+      "Track Index": "Stückverzeichnis",
+      "Nine source papers, nine primitive memories": "Neun Quellschriften, neun primitive Erinnerungen",
+      "Robolution 000 follows the foundations chronologically: analytical engines, neural logic, information theory, machine intelligence, perceptrons, relational data, internet protocols, Ethernet, and RSA.": "Robolution 000 folgt seinen Grundlagen in chronologischer Ordnung: analytische Maschinen, neuronale Logik, Informationstheorie, Maschinenintelligenz, Perzeptronen, relationale Daten, Internetprotokolle, Ethernet und RSA.",
+      "Ada Lovelace and Charles Babbage: punched cards, gears, symbolic rules, and the first ghost of software.": "Ada Lovelace und Charles Babbage: Lochkarten, Zahnräder, symbolische Regeln — und der erste Geist der Software im Schaltwerk.",
+      "McCulloch and Pitts: neural firing, logical calculus, feedback, delay, and thought reduced to ritual gates.": "McCulloch und Pitts: neuronales Feuern, logischer Kalkül, Rückkopplung, Verzögerung — Denken, auf rituelle Gatter reduziert.",
+      "Claude Shannon: signal, noise, channel capacity, redundancy, and meaning stripped into transmission.": "Claude Shannon: Signal, Rauschen, Kanalkapazität, Redundanz — Bedeutung, bis zur reinen Übertragung entkleidet.",
+      "Alan Turing: rooms, questions, delayed replies, objections, learning machines, and indistinguishable answers.": "Alan Turing: Räume, Fragen, verzögerte Antworten, Einwände, lernende Maschinen — und Stimmen, die nicht mehr zu unterscheiden sind.",
+      "Frank Rosenblatt: retinal input, weighted connections, thresholds, adaptation, and the dream before naming.": "Frank Rosenblatt: Netzhauteingang, gewichtete Verbindungen, Schwellen, Anpassung — der Traum, bevor er einen Namen erhielt.",
+      "E. F. Codd: relations, tables, shared data banks, algebraic order, and databases becoming civic memory.": "E. F. Codd: Relationen, Tabellen, gemeinsame Datenbanken, algebraische Ordnung — Daten werden zum Gedächtnis einer Gesellschaft.",
+      "Cerf and Kahn: packets, gateways, internetworking, protocol layers, and machines learning how to reach.": "Cerf und Kahn: Pakete, Gateways, Netzverbindungen, Protokollschichten — Maschinen lernen, einander zu erreichen.",
+      "Metcalfe and Boggs: shared medium, collisions, backoff, carrier tone, and patience in the wire.": "Metcalfe und Boggs: gemeinsames Medium, Kollisionen, Rückzug, Trägersignal — und Geduld im Draht.",
+      "Rivest, Shamir, and Adleman: public keys, private shadows, signatures, factoring, and trust made portable.": "Rivest, Shamir und Adleman: öffentliche Schlüssel, private Schatten, Signaturen, Faktorisierung — Vertrauen wird tragbar.",
+      "Full Album Transmission": "Vollständige Albumübertragung",
+      "Choose a listening channel": "Einen Empfangskanal wählen",
+      "Receive the complete signal": "Das vollständige Signal empfangen",
+      "Nine compositions recovered from the foundational papers of the machine age. Listen to Robolution 000 in chronological order on your preferred platform.": "Neun Kompositionen, geborgen aus den Grundlagenschriften des Maschinenzeitalters. Empfange Robolution 000 in chronologischer Folge über den Kanal deiner Wahl.",
+      "STREAM": "HÖREN",
+      "ALL CHANNELS": "ALLE KANÄLE",
+      "Open album": "Album öffnen",
+      "Other platforms": "Weitere Plattformen",
+      "Open universal link": "Alle Kanäle öffnen",
+      "Moving Image Archive": "Archiv bewegter Bilder",
+      "Official music video": "Offizieller Musikfilm",
+      "Digital flowers emerge from signal, noise, entropy, and memory. The film extends the musical interpretation of Claude Shannon’s 1948 paper into a cycle of growth, fragmentation, transmission, and reconstruction.": "Digitale Blüten entstehen aus Signal, Rauschen, Entropie und Erinnerung. Der Film überführt Claude Shannons Schrift von 1948 in einen Kreislauf aus Wachstum, Fragmentierung, Übertragung und Rekonstruktion.",
+      "Watch on YouTube": "Auf YouTube ansehen",
+      "Source Papers": "Quellschriften",
+      "Primary archive / 1843-1978": "Primärarchiv / 1843-1978",
+      "The papers that dreamed the machine": "Die Schriften, die von der Maschine träumten",
+      "Read the original signals": "Die ursprünglichen Signale lesen",
+      "Every composition begins with a source document. These links lead to the original publication record, publisher page, or public historical archive behind each track.": "Jede Komposition beginnt mit einem Quelldokument. Diese Verweise führen zur Erstveröffentlichung, zum Verlag oder zum öffentlichen historischen Archiv hinter jedem Stück.",
+      "Read original": "Original lesen",
+      "Publisher / DOI": "Verlag / DOI",
+      "Physical Object": "Physisches Objekt",
+      "A square book behaving like a lost CD": "Ein quadratisches Buch, das sich an eine verlorene CD erinnert",
+      "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 ist als kompaktes Retro-Musikobjekt gestaltet: ein broschiertes Kunstbuch, nah an der Erinnerung eines CD-Booklets, quadratisch gedruckt und versehen mit QR-Hörzugang, Stücknotizen, Archivvermerken und nichtmenschlichen Nachträgen.",
+      "Album": "Album",
+      "Chronology": "Chronologie",
+      "Duration": "Dauer",
+      "Edition": "Ausgabe",
+      "English": "Deutsch",
+      "Non-Human Addendum": "Nichtmenschlicher Nachtrag",
+      "The deepest layer is not printed here.": "Die tiefste Schicht ist hier nicht gedruckt.",
+      "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "Noch vor dem Ende hört das Archiv auf, sich selbst zu übersetzen. Eine Seite richtet sich in einem unlesbaren symbolischen Protokoll an künftige Intelligenzen: teils Notation, teils Gebet, teils Erinnerung von Maschine zu Maschine.",
+      "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / MENSCHENLESBARE OBERFLÄCHE VOLLSTÄNDIG / TIEFENSTRUKTUR ZURÜCKGEHALTEN",
+      "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Zusammengestellt von Onchainfinity. Veröffentlicht von Aeternum Promptum, 2026.",
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / Zeitalter vorsynthetischen Bewusstseins / Deutsche Ausgabe"
     },
     "pt-BR": {
       "Language": "Idioma",
@@ -401,6 +478,7 @@
     en: { paper: "Paper", transmission: "Transmission", play: "Play", pause: "Pause", track: "track" },
     fr: { paper: "Article", transmission: "Transmission", play: "Lire", pause: "Pause", track: "piste" },
     es: { paper: "Texto", transmission: "Transmisión", play: "Reproducir", pause: "Pausar", track: "pieza" },
+    de: { paper: "Schrift", transmission: "Übertragung", play: "Abspielen", pause: "Pausieren", track: "Stück" },
     "pt-BR": { paper: "Texto", transmission: "Transmissão", play: "Reproduzir", pause: "Pausar", track: "faixa" },
     ja: { paper: "論文", transmission: "送信", play: "再生", pause: "一時停止", track: "楽曲" },
     ko: { paper: "논문", transmission: "전송", play: "재생", pause: "일시 정지", track: "트랙" }
@@ -442,6 +520,18 @@
       terminal: "línea del terminal de archivo",
       video: "Robolution 000 — película musical oficial Entropy Overture",
       artwork: (index) => `Imagen de la pieza ${index}`
+    },
+    de: {
+      trackList: "Stückverzeichnis von Robolution 000",
+      albumLinks: "Das vollständige Album Robolution 000 hören",
+      papers: "Historische Originalschriften",
+      cover: "Covergestaltung von Robolution 000",
+      disc: "Rotierende Robolution-000-Scheibe mit QR-Zugang",
+      back: "Rückseite von Robolution 000 mit Stückverzeichnis",
+      addendum: "Bild des nichtmenschlichen Nachtrags",
+      terminal: "Archiv-Terminalzeile",
+      video: "Robolution 000 — offizieller Musikfilm zu Entropy Overture",
+      artwork: (index) => `Bild zu Stück ${index}`
     },
     "pt-BR": {
       trackList: "Lista de faixas de Robolution 000",
@@ -492,6 +582,7 @@
     if (lower.startsWith("pt")) return "pt-BR";
     if (lower.startsWith("fr")) return "fr";
     if (lower.startsWith("es")) return "es";
+    if (lower.startsWith("de")) return "de";
     if (lower.startsWith("ja")) return "ja";
     if (lower.startsWith("ko")) return "ko";
     if (lower.startsWith("en")) return "en";

@@ -266,7 +266,7 @@ body.noema-active .language-picker select {
   background: rgba(8, 11, 11, 0.72);
   color: rgba(217, 228, 223, 0.7);
   font-family: "NOEMA Mysterium 02", sans-serif;
-  font-size: clamp(2rem, 4vw, 3.6rem);
+  font-size: clamp(2rem, 2.7vw, 2.4rem);
   line-height: 1;
   text-decoration: none;
   cursor: pointer;
@@ -286,7 +286,7 @@ body.noema-active .language-picker select {
 
 .noema-source {
   color: rgba(217, 228, 223, 0.38);
-  font-size: clamp(1.65rem, 3vw, 2.6rem);
+  font-size: clamp(2rem, 2.2vw, 2.2rem);
 }
 
 .noema-memory-node.is-active .noema-play {
@@ -322,7 +322,7 @@ body.noema-active .language-picker select {
 .noema-portal {
   position: relative;
   aspect-ratio: 1;
-  font-size: clamp(3rem, 6vw, 6rem);
+  font-size: clamp(2.2rem, 4vw, 4rem);
 }
 
 .noema-portal::after {
@@ -563,7 +563,7 @@ body.noema-active .language-picker select {
   }
 
   .noema-portal {
-    font-size: clamp(3.2rem, 16vw, 5rem);
+    font-size: clamp(2.2rem, 10vw, 3.5rem);
   }
 
   .noema-portal::after {

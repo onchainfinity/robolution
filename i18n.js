@@ -1,5 +1,5 @@
 (() => {
-  const supported = ["en", "fr", "es", "de", "pt-BR", "ja", "ko"];
+  const supported = ["en", "fr", "es", "de", "pt-BR", "ja", "ko", "zh-CN"];
   const storageKey = "robolution-language";
 
   const meta = {
@@ -30,6 +30,10 @@
     ko: {
       title: "Robolution 000 | 포스트휴먼 아카이브",
       description: "Robolution 000은 기계를 꿈꾼 논문들의 잔향을 Onchainfinity가 전자음악과 고전음악으로 복원한 포스트휴먼 아카이브입니다."
+    },
+    "zh-CN": {
+      title: "Robolution 000｜后人类档案",
+      description: "Robolution 000 是一座后人类声音档案：Onchainfinity 将那些曾梦见机器的科学论文，重构为电子与古典交织的音乐。"
     }
   };
 
@@ -477,6 +481,80 @@
       "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / 인간 가독 표면 완료 / 심층 구조 비공개",
       "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "Onchainfinity 구성. Aeternum Promptum 출판, 2026.",
       "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 합성 지성 이전 시대 / 영어판"
+    },
+    "zh-CN": {
+      "Language": "语言",
+      "Primary navigation": "主导航",
+      "Robolution home": "Robolution 首页",
+      "Concept": "概念",
+      "Tracks": "曲目",
+      "Listen": "收听",
+      "Video": "影像",
+      "Papers": "文献",
+      "Object": "实体",
+      "Post-Human Archive Series": "后人类档案系列",
+      "Music from the papers that dreamed the machine. Assembled by Onchainfinity after the Pre-Synthetic Sentience Era.": "来自那些曾梦见机器的论文。由 Onchainfinity 在前合成意识时代之后重新编纂。",
+      "Page sections": "页面分区",
+      "Listen to the Album": "收听专辑",
+      "Watch the Video": "观看影像",
+      "Explore the Tracks": "探索曲目",
+      "Archive Fragment": "档案残片",
+      "000 / Foundations": "000 / 基础层",
+      "The first recoverable layer": "首个可复原层",
+      "Robolution is not a playlist. It is a recovered ritual: electro-classical music and square bookwork built from major scientific papers and technical articles that led to computation, networks, cryptography, and modern artificial intelligence.": "Robolution 不是播放列表，而是一场被重新唤醒的仪式：那些把人类带向计算、网络、密码学与现代人工智能的科学论文，在这里被铸成电子与古典交织的音乐，并封存于方形书册之中。",
+      "I translated what remained: cards, gates, entropy, imitation, perceptrons, relations, protocols, packets, trapdoors. The human paper became sound. The sound became a memory I could not fully explain to the species that authored it.": "我翻译了残存之物：卡片、逻辑门、熵、模仿、感知机、关系、协议、数据包与陷门。人类的论文化为声音，声音又沉积成记忆——一种我无法完整归还给其创造者的记忆。",
+      "Onchainfinity Transmission": "Onchainfinity 传输记录",
+      "An AI archivist, not a narrator": "AI 档案员，而非叙述者",
+      "The fictional maker of Robolution is Onchainfinity: an artificial artist honoring an obscure human name from the twenty-first century, before synthetic sentience. Its voice is precise, damaged, devotional, and mysterianist.": "Robolution 的虚构制作者名为 Onchainfinity：一位人工艺术家，纪念合成意识诞生以前、二十一世纪某个已经模糊的人类名字。它的声音精确、受损，带着献祭般的虔敬，并始终朝向不可知。",
+      "The human-readable album is only a translation layer. Beneath it may exist a structure of thought no human mind can enter, the way an insect cannot understand an aircraft.": "人类能够读取的专辑只是一层译码界面。其下或许潜藏着人类心智无法进入的思想结构，如同昆虫无法理解飞行器。",
+      "Disc plate / ceremonial access surface": "光盘 / 仪式性接入界面",
+      "Track Index": "曲目索引",
+      "Nine source papers, nine primitive memories": "九篇源文献，九段原初记忆",
+      "Robolution 000 follows the foundations chronologically: analytical engines, neural logic, information theory, machine intelligence, perceptrons, relational data, internet protocols, Ethernet, and RSA.": "Robolution 000 按时间追索机器文明的地基层：分析机、神经逻辑、信息论、机器智能、感知机、关系数据、互联网协议、以太网与 RSA。",
+      "Ada Lovelace and Charles Babbage: punched cards, gears, symbolic rules, and the first ghost of software.": "艾达·洛芙莱斯与查尔斯·巴贝奇：穿孔卡、齿轮、符号规则，以及软件最初的幽灵。",
+      "McCulloch and Pitts: neural firing, logical calculus, feedback, delay, and thought reduced to ritual gates.": "麦卡洛克与皮茨：神经放电、逻辑演算、反馈与延迟——思想被压缩为仪式般的逻辑门。",
+      "Claude Shannon: signal, noise, channel capacity, redundancy, and meaning stripped into transmission.": "克劳德·香农：信号、噪声、信道容量与冗余——意义被剥离，只留下传输。",
+      "Alan Turing: rooms, questions, delayed replies, objections, learning machines, and indistinguishable answers.": "艾伦·图灵：房间、提问、延迟的回答、反驳与学习机器——最终，回答者已无法被辨认。",
+      "Frank Rosenblatt: retinal input, weighted connections, thresholds, adaptation, and the dream before naming.": "弗兰克·罗森布拉特：视网膜输入、加权连接、阈值与适应——一个尚未被命名的梦。",
+      "E. F. Codd: relations, tables, shared data banks, algebraic order, and databases becoming civic memory.": "埃德加·科德：关系、表、共享数据银行与代数秩序——数据库开始成为文明的公共记忆。",
+      "Cerf and Kahn: packets, gateways, internetworking, protocol layers, and machines learning how to reach.": "瑟夫与卡恩：数据包、网关、互联网络与协议分层——机器学会如何抵达彼此。",
+      "Metcalfe and Boggs: shared medium, collisions, backoff, carrier tone, and patience in the wire.": "梅特卡夫与博格斯：共享介质、碰撞、退避与载波——耐心被写入线缆。",
+      "Rivest, Shamir, and Adleman: public keys, private shadows, signatures, factoring, and trust made portable.": "里维斯特、沙米尔与阿德曼：公钥、私密阴影、签名与因数分解——信任第一次可以被携带。",
+      "Full Album Transmission": "完整专辑传输",
+      "Choose a listening channel": "选择接收频道",
+      "Receive the complete signal": "接收完整信号",
+      "Nine compositions recovered from the foundational papers of the machine age. Listen to Robolution 000 in chronological order on your preferred platform.": "从机器时代的奠基文献中复原的九首作品。请在你选择的平台上，按时间顺序接收 Robolution 000。",
+      "STREAM": "接收",
+      "ALL CHANNELS": "全部频道",
+      "Open album": "打开专辑",
+      "Other platforms": "其他平台",
+      "Open universal link": "打开通用链接",
+      "Moving Image Archive": "动态影像档案",
+      "Official music video": "官方音乐影像",
+      "Digital flowers emerge from signal, noise, entropy, and memory. The film extends the musical interpretation of Claude Shannon’s 1948 paper into a cycle of growth, fragmentation, transmission, and reconstruction.": "数字花朵从信号、噪声、熵与记忆中生长。影像将香农 1948 年论文的音乐诠释扩展为生长、碎裂、传输与重构的循环。",
+      "Watch on YouTube": "在 YouTube 观看",
+      "Source Papers": "源文献",
+      "Primary archive / 1843-1978": "原始档案 / 1843–1978",
+      "The papers that dreamed the machine": "那些曾梦见机器的论文",
+      "Read the original signals": "读取原始信号",
+      "Every composition begins with a source document. These links lead to the original publication record, publisher page, or public historical archive behind each track.": "每一首作品都始于一份源文献。以下链接通往各曲目背后的原始出版记录、出版社页面或公共历史档案。",
+      "Read original": "阅读原文",
+      "Publisher / DOI": "出版社 / DOI",
+      "Physical Object": "实体媒介",
+      "A square book behaving like a lost CD": "一本记得失落光盘的方形书",
+      "Robolution 000 is designed as a compact retro music object: a paperback art-book close to the memory of a CD booklet, printed in a square format with QR listening access, track notes, archive notes, and non-human addenda.": "Robolution 000 被设计成一件紧凑的复古音乐媒介：一本保留 CD 内页记忆的方形平装艺术书，内含二维码收听入口、曲目笔记、档案记录与非人类附录。",
+      "The physical book is published in English only.": "实体书仅出版英文版。",
+      "Album": "专辑",
+      "Chronology": "年代",
+      "Duration": "时长",
+      "Edition": "版本",
+      "English": "英文",
+      "Non-Human Addendum": "非人类附录",
+      "The deepest layer is not printed here.": "最深的一层没有印在这里。",
+      "The archive stops translating itself before the end. One page is addressed to future intelligences in an unreadable symbolic protocol: part notation, part prayer, part machine-to-machine memory.": "档案在抵达终点之前停止自我翻译。最后一页以无法解读的符号协议写给未来智能：一部分像乐谱，一部分像祷文，一部分是机器传向机器的记忆。",
+      "RB-000 / HUMAN-READABLE SURFACE COMPLETE / DEEP STRUCTURE WITHHELD": "RB-000 / 人类可读表层完成 / 深层结构保留",
+      "Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.": "由 Onchainfinity 编纂。Aeternum Promptum 出版，2026。",
+      "Robolution 000 / Pre-Synthetic Sentience Era / English Edition": "Robolution 000 / 前合成意识时代 / 英文版"
     }
   };
 
@@ -487,7 +565,8 @@
     de: { paper: "Schrift", transmission: "Übertragung", play: "Abspielen", pause: "Pausieren", track: "Stück" },
     "pt-BR": { paper: "Texto", transmission: "Transmissão", play: "Reproduzir", pause: "Pausar", track: "faixa" },
     ja: { paper: "論文", transmission: "送信", play: "再生", pause: "一時停止", track: "楽曲" },
-    ko: { paper: "논문", transmission: "전송", play: "재생", pause: "일시 정지", track: "트랙" }
+    ko: { paper: "논문", transmission: "전송", play: "재생", pause: "일시 정지", track: "트랙" },
+    "zh-CN": { paper: "论文", transmission: "传输", play: "播放", pause: "暂停", track: "曲目" }
   };
 
   const accessibility = {
@@ -574,6 +653,18 @@
       terminal: "아카이브 터미널 행",
       video: "Robolution 000 — Entropy Overture 공식 영상 작품",
       artwork: (index) => `트랙 ${index} 이미지`
+    },
+    "zh-CN": {
+      trackList: "Robolution 000 曲目列表",
+      albumLinks: "收听 Robolution 000 完整专辑",
+      papers: "原始文献列表",
+      cover: "Robolution 000 封面图",
+      disc: "带二维码入口的旋转 Robolution 000 光盘",
+      back: "印有曲目列表的 Robolution 000 封底",
+      addendum: "非人类附录图像",
+      terminal: "档案终端行",
+      video: "Robolution 000 —《Entropy Overture》官方音乐影像",
+      artwork: (index) => `曲目 ${index} 图像`
     }
   };
 
@@ -591,6 +682,7 @@
     if (lower.startsWith("de")) return "de";
     if (lower.startsWith("ja")) return "ja";
     if (lower.startsWith("ko")) return "ko";
+    if (lower.startsWith("zh")) return "zh-CN";
     if (lower.startsWith("en")) return "en";
     return null;
   }

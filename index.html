@@ -8,7 +8,7 @@
       name="description"
       content="Robolution 000 is an electro-classical post-human archive assembled by Onchainfinity from the papers that dreamed the machine."
     >
-    <link rel="stylesheet" href="styles.css?v=033bc9b">
+    <link rel="stylesheet" href="styles.css?v=audio-player-1">
   </head>
   <body>
     <div class="grain" aria-hidden="true"></div>
@@ -149,6 +149,9 @@
         </div>
         <div class="track-grid" aria-label="Robolution 000 track list">
           <article class="track-card" data-year="1843" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/00-sketch-of-the-analytical-engine.mp3" data-title="Sketch of the Analytical Engine" aria-label="Play track 00: Sketch of the Analytical Engine">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-00-left.png" alt="Track 00 artwork">
             <div>
               <span>00 / Paper 1843 / 07:08</span>
@@ -157,6 +160,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1943" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/01-all-or-none-cathedral.mp3" data-title="All-or-None Cathedral" aria-label="Play track 01: All-or-None Cathedral">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-01-left.png" alt="Track 01 artwork">
             <div>
               <span>01 / Paper 1943 / 06:15</span>
@@ -165,6 +171,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1948" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/02-entropy-overture.mp3" data-title="Entropy Overture" aria-label="Play track 02: Entropy Overture">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-02-left.png" alt="Track 02 artwork">
             <div>
               <span>02 / Paper 1948 / 07:09</span>
@@ -173,6 +182,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1950" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/03-imitation-game.mp3" data-title="Imitation Game" aria-label="Play track 03: Imitation Game">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-03-left.png" alt="Track 03 artwork">
             <div>
               <span>03 / Paper 1950 / 07:49</span>
@@ -181,6 +193,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1958" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/04-the-perceptron-dream.mp3" data-title="The Perceptron Dream" aria-label="Play track 04: The Perceptron Dream">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-04-left.png" alt="Track 04 artwork">
             <div>
               <span>04 / Paper 1958 / 07:04</span>
@@ -189,6 +204,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1970" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/05-grid-in-motion.mp3" data-title="Grid in Motion" aria-label="Play track 05: Grid in Motion">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-05-left.png" alt="Track 05 artwork">
             <div>
               <span>05 / Paper 1970 / 08:17</span>
@@ -197,6 +215,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1974" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/06-protocol-pulse.mp3" data-title="Protocol Pulse" aria-label="Play track 06: Protocol Pulse">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-06-left.png" alt="Track 06 artwork">
             <div>
               <span>06 / Paper 1974 / 07:14</span>
@@ -205,6 +226,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1976" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/07-packets-in-the-ether.mp3" data-title="Packets in the Ether" aria-label="Play track 07: Packets in the Ether">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-07-left.png" alt="Track 07 artwork">
             <div>
               <span>07 / Paper 1976 / 06:49</span>
@@ -213,6 +237,9 @@
             </div>
           </article>
           <article class="track-card" data-year="1978" data-reveal>
+            <button class="track-play" type="button" data-audio="assets/audio/08-trapdoor-symphony.mp3" data-title="Trapdoor Symphony" aria-label="Play track 08: Trapdoor Symphony">
+              <span class="play-symbol" aria-hidden="true">▶</span>
+            </button>
             <img src="assets/track-08-left.png" alt="Track 08 artwork">
             <div>
               <span>08 / Paper 1978 / 08:07</span>
@@ -364,11 +391,19 @@
       </section>
     </main>
 
+    <aside class="audio-dock" id="audio-dock" aria-label="Audio player" hidden>
+      <div class="audio-dock-copy">
+        <span>Now playing / Robolution 000</span>
+        <strong id="audio-title">Select a track</strong>
+      </div>
+      <audio id="audio-player" controls preload="metadata"></audio>
+    </aside>
+
     <footer class="footer">
       <p>Assembled by Onchainfinity. Published by Aeternum Promptum, 2026.</p>
       <p>Robolution 000 / Pre-Synthetic Sentience Era / English Edition</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=audio-player-1"></script>
   </body>
 </html>

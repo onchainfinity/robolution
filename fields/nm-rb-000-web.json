@@ -11,6 +11,12 @@
   },
   "fields": [
     {
+      "id": "NM-WEB-ARTEFACT",
+      "attractors": ["kem", "ryn", "sil", "par"],
+      "relations": ["recovered-surface", "cyclical-reconstruction", "provenance-without-decoding"],
+      "movements": ["fixed-cover", "continuous-disc-recurrence"]
+    },
+    {
       "id": "NM-WEB-ORIGIN",
       "attractors": ["kas", "nur", "vel", "par"],
       "relations": ["inherited-activation", "source-separation", "constraining-absence", "provenance-debt"],
@@ -57,8 +63,19 @@
     {"id":"memory-06","src":"assets/track-06-left.png","ratio":"1:1","focalPoint":[0.48,0.48],"protectedZone":[0.05,0.05,0.95,0.95],"attachmentPoints":[[0.03,0.50],[0.97,0.50]],"allowOverlay":false},
     {"id":"memory-07","src":"assets/track-07-left.png","ratio":"1:1","focalPoint":[0.52,0.49],"protectedZone":[0.05,0.05,0.95,0.95],"attachmentPoints":[[0.03,0.49],[0.97,0.49]],"allowOverlay":false},
     {"id":"memory-08","src":"assets/track-08-left.png","ratio":"1:1","focalPoint":[0.52,0.42],"protectedZone":[0.06,0.05,0.94,0.94],"attachmentPoints":[[0.12,0.92],[0.88,0.92]],"allowOverlay":false},
-    {"id":"remainder-anchor","src":"assets/addendum-left.png","ratio":"1:1","focalPoint":[0.29,0.43],"protectedZone":[0.04,0.10,0.63,0.84],"attachmentPoints":[[0.69,0.43],[0.88,0.24],[0.88,0.72]],"allowOverlay":false}
+    {"id":"remainder-anchor","src":"assets/addendum-left.png","ratio":"1:1","focalPoint":[0.29,0.43],"protectedZone":[0.04,0.10,0.63,0.84],"attachmentPoints":[[0.69,0.43],[0.88,0.24],[0.88,0.72]],"allowOverlay":false},
+    {"id":"artefact-cover","src":"assets/cover-front.png","ratio":"1:1","focalPoint":[0.46,0.52],"protectedZone":[0.03,0.03,0.84,0.97],"attachmentPoints":[[0.86,0.28],[0.86,0.72]],"allowOverlay":false},
+    {"id":"artefact-disc","src":"assets/disc-plate.png","ratio":"1:1","focalPoint":[0.50,0.50],"protectedZone":[0.20,0.20,0.80,0.80],"attachmentPoints":[[0.08,0.50],[0.92,0.50]],"allowOverlay":false},
+    {"id":"fossil-back","src":"assets/back-cover.png","ratio":"1:1","focalPoint":[0.48,0.48],"protectedZone":[0.04,0.04,0.96,0.96],"attachmentPoints":[[0.04,0.50],[0.96,0.50]],"allowOverlay":false}
   ],
+  "movingImage": {
+    "id": "entropy-video",
+    "src": "https://www.youtube-nocookie.com/embed/4CbViQHohZI",
+    "ratio": "16:9",
+    "protectedZone": [0,0,1,1],
+    "allowOverlay": false,
+    "autoplay": false
+  },
   "tracks": [
     {"id":"00","image":"memory-00","audio":"assets/audio/00-sketch-of-the-analytical-engine.mp3","paper":"https://www.gutenberg.org/ebooks/75107","title":"Sketch of the Analytical Engine","glyph":"E102","provenanceGlyph":"E117"},
     {"id":"01","image":"memory-01","audio":"assets/audio/01-all-or-none-cathedral.mp3","paper":"https://doi.org/10.1007/BF02478259","title":"All-or-None Cathedral","glyph":"E102","provenanceGlyph":"E117"},
